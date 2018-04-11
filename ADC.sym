@@ -1,0 +1,87 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020     valor
+021     valor1
+022     lcd_init.i
+022     Leer_ADC.canal
+022     MAIN.@SCRATCH1
+023     Leer_ADC.dato
+023     lcd_init.@SCRATCH1
+023     MAIN.@SCRATCH2
+024     @PRINTF_U_70.P1
+025     @PRINTF_U_70.P1
+026     @DIV88.P1
+026     lcd_putc.c
+027     lcd_gotoxy.x
+027     @delay_ms1.P1
+027     @DIV88.P2
+028     lcd_gotoxy.y
+028     @DIV88.@SCRATCH1
+029     lcd_gotoxy.address
+02A     lcd_gotoxy.@SCRATCH1
+02B     lcd_send_byte.address
+02C     lcd_send_byte.n
+02D     lcd_send_byte.@SCRATCH1
+02E     lcd_send_nibble.nibble
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0022  @delay_ms1
+0004  LCD_INIT_STRING
+0036  lcd_send_nibble
+0062  lcd_send_byte
+0089  lcd_init
+00D3  lcd_gotoxy
+00E5  lcd_putc
+00B8  Leer_ADC
+0154  MAIN
+000C  @const82
+010A  @DIV88
+011F  @PRINTF_U_70
+0154  @cinit
+
+Project Directory:
+    D:\Tutorial\CCS\ADC\
+
+Project Files:
+    ADC.c
+    C:\Program Files\PICC\devices\16F877A.h
+    lcd1.c
+
+Units:
+    D:\Tutorial\CCS\ADC\ADC.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ADC.err
+    Ext Symbols: ADC.esym
+    INHX8:       ADC.hex
+    Symbols:     ADC.sym
+    List:        ADC.lst
+    Debug/COFF:  ADC.cof
+    Project:     ADC.PJT
+    Call Tree:   ADC.tre
+    Statistics:  ADC.sta
