@@ -1,0 +1,12 @@
+esto es un prueba
+
+hola hola
+otro cambio
+
+git reset --soft HEAD-1
+
+git commit -m "Arreglando el fichero..."
+
+git remote  -v
+
+git push origin master
