@@ -9,4 +9,11 @@ git commit -m "Arreglando el fichero..."
 
 git remote  -v
 
-git push origin master
+git log
+
+git push origin master | rama-inicial-de-cambios
+
+git sync (push+pull)
+
+
+git pull origin master | rama-inicial-de-cambios

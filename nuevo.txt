@@ -1,4 +1,7 @@
 lore ipsum 
 
 esto es otra prueba
+<<<<<<< HEAD
 acabo de cambiar
+=======
+>>>>>>> f33044b4216ffd60d34c7085463c1931384ef991
