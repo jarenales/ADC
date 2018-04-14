@@ -17,3 +17,6 @@ git sync (push+pull)
 
 
 git pull origin master | rama-inicial-de-cambios
+
+Desde Github
+
