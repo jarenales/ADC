@@ -2,6 +2,10 @@ lore ipsum
 
 esto es otra prueba
 <<<<<<< HEAD
+<<<<<<< HEAD
 acabo de cambiar
 =======
 >>>>>>> f33044b4216ffd60d34c7085463c1931384ef991
+=======
+
+>>>>>>> f2dcb34cf1be4aa0c6dcfe0fe58ea132c31a2be2
